@@ -1,0 +1,144 @@
+body {
+  background-color: rgb(238, 237, 236);
+  font-family: 'Open Sans', sans-serif;
+  color: #2E3D50;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  font-weight: 100;
+  padding: 10;
+  margin: 25px;
+}
+
+h1 {
+  color: #3F4E4F;
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+  line-height: 1.8;
+  font-weight: 500;
+  letter-spacing: 10px;
+  line-height: 1.8;
+}
+
+h2 {
+  color: #966844;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  line-height: 1.3;
+  font-weight: 200;
+}
+
+h3 {
+  color: #966844;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  line-height: 1.3;
+  font-weight: 900;
+}
+
+a {
+  color: #F3ECE7;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+
+a:hover {
+  color: #CBAFA2;
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  margin: 10 auto;
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #B4BDBA;
+}
+
+.card {
+  background-color: #F3ECE7;
+  padding: 70px;
+  width: 520px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #B4BDBA;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+.blog {
+  background-color: #3F4E4F;
+  padding: 50px;
+  width: 520px;
+  margin: 20px auto;
+  border-radius: 5px;
+  border: 1px solid #F3ECE7;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+#logo {
+  margin: 10 auto;
+  width: 120px;
+  height: 120px;
+}
+
+.socials {
+  background-color: #F3ECE7;
+  padding: 20px;
+  width: 520px;
+  margin: 20px auto;
+  border-radius: 5px;
+  border: 1px solid #3F4E4F;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+ul {
+  padding: 0;
+}
+
+.list-inline > li {
+  display: inline;
+  padding: 8px 15px;
+}
+
+.fa-brands {
+  color: #2E3D50;
+  margin: 3px;
+  font-size: 25px;
+}
+
+.card h2 {
+  margin-bottom: 25px;
+}
+
+.socials h3 {
+  margin-bottom: 25px;
+}
+
+.bottom-space {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
